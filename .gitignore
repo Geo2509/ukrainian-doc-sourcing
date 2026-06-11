@@ -1,0 +1,45 @@
+# Python/runtime
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+venv/
+.venv/
+tmp/
+local_data/
+
+# Local agent/tool state
+.agents/
+.codex/
+
+# PDF corpora and generated document archives
+*.pdf
+downloads/
+approved_pdfs/
+prepared_pdfs/
+generated_pdfs/
+duplicates_removed/
+duplicates_removed_visual/
+selected_one_page_handfill_candidates/
+selected_pradeep_single_pages/
+user_provided_documents/
+
+# OCR/text extraction outputs and generated reports
+output/
+
+# Keep sanitized lightweight source/link metadata in Git
+!data/
+data/*.csv
+!data/public/
+!data/public/*.csv
+!manifests/
+!manifests/*.csv
+!manifests/*.md
+
+# Local logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
